@@ -17,6 +17,7 @@
 
 body {
     width: 100dvw;
+    max-width: 375px;
     height: 100dvh;
     display: flex;
     flex-direction: column;
@@ -36,25 +37,55 @@ main {
     width: 100%;
     max-width: 375px;
     height: fit-content;
-    padding: 1.25rem;
+    padding: 2rem;
 }
 
 main h1 {
-    line-height: 1.032;
+    line-height: 1;
+    letter-spacing: 1px;
+    width: 100%;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main p {
     line-height: 1.25;
+    padding: 1rem 0rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .prep-section {
     background-color: var(--rose50);
     width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .prep-section h2 {
     color: var(--rose800);
-    margin: 1rem;
+    font-size: 1.625rem;
+}
+
+.prep-section li {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0rem 1.5rem;
+    margin: 1rem 1rem;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 footer { 
