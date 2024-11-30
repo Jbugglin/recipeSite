@@ -36,6 +36,7 @@ main {
     width: 100%;
     max-width: 375px;
     height: fit-content;
+    padding: 2rem;
 }
 
 main h1 {
