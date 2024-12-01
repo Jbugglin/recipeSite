@@ -38,6 +38,7 @@ main {
     max-width: 375px;
     height: fit-content;
     padding: 2rem;
+    background-color: var(--white);
 }
 
 main h1 {
@@ -56,6 +57,14 @@ main p {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+}
+
+li {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95rem;
 }
 
 .prep-section {
@@ -79,20 +88,16 @@ main p {
 }
 
 .prep-section li {
-    font-family: "Outfit", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.95rem;
     padding: 0rem 1.5rem;
     margin: 1rem 1.5rem;
+    font-size: 0.85rem;
 }
 
 .ingredient-section {
     margin: 1.5rem auto;
 }
 
-.ingredient-section h2 {
+.section-headings-h2{
     color: var(--brown800);
     font-family: "Young Serif", serif;
     font-weight: 400;
@@ -106,13 +111,31 @@ main p {
 }
 
 .ingredient-section li{
-    font-family: "Outfit", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     margin: 0.625rem 0rem;
     padding: 0rem 1rem;
     font-size: 0.9rem;
+}
+
+.instruction-section {
+    margin: 1.5rem auto;
+}
+
+.instruction-section ol{
+    margin: 1.5rem auto;
+    padding: 0rem 1.375rem;
+}
+
+.instruction-section li{
+    margin: 0.5rem auto;
+    padding: 0rem 1.25rem;
+    line-height: 1.5;
+    font-size: 0.93rem;
+    letter-spacing: 0.25px;
+}
+
+.instruction-section li::marker{
+    color: var(--rose800);
+    font-weight: 600;
 }
 
 hr {
@@ -122,10 +145,29 @@ hr {
     color: var(--stone150);
 }
 
+.macros-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem auto;
+}
+
 .stat {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 0rem 2rem;
+}
+
+.nutritional-number {
+    color: var(--rose800);
+    font-weight: 600;
+    margin: 0rem 1rem;
+    text-align: left;
+}
+
+.table-hr {
+    margin: 0;
 }
 
 footer { 
