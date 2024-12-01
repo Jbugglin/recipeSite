@@ -65,11 +65,17 @@ main p {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    border-radius: 0.75rem;
+    margin: 1rem auto;
 }
 
 .prep-section h2 {
     color: var(--rose800);
-    font-size: 1.625rem;
+    font-size: 1.25rem;
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .prep-section li {
@@ -77,9 +83,9 @@ main p {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.95rem;
     padding: 0rem 1.5rem;
-    margin: 1rem 1rem;
+    margin: 1rem 1.5rem;
 }
 
 .stat {
