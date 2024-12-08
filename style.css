@@ -25,22 +25,20 @@ body {
 
 /* Mobile View */
 
-header img {
-    width: 100%;
-    max-width: 375px;
-    height: fit-content;
-    display: block;
-}
-
-.heroImage {
-    display: none;
-}
-
 main {
     width: 375px;
     height: fit-content;
-    padding: 2rem;
     background-color: var(--white);
+}
+
+.non-image-container {
+    padding: 2rem;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 main h1 {
@@ -211,9 +209,10 @@ footer a {
     }
 
     main {
-        width: 850px;
+        width: 750px;
         border-radius: 1rem;
         padding: 3rem;
+        height: fit-content;
     }
 
     .hero-image img {
@@ -249,5 +248,4 @@ footer a {
     .instruction-section li {
         font-size: 1.125rem;
     }
-
 }
