@@ -197,6 +197,8 @@ footer a {
 /* Desktop View */
 @media screen and (min-width: 376px) {
     body {
+        height: 100dvh;
+        width: 100dvw;
         background-color: var(--stone100);
         display: flex;
         flex-direction: column;
@@ -207,13 +209,14 @@ footer a {
     main {
         width: 750px;
         border-radius: 1rem;
-        padding: 3rem;
-        height: fit-content;
+        padding: 2.5rem;
+        height: 90%;
+        margin: 0rem;
     }
 
     .non-image-container {
         padding: 0rem;
-        margin-top: 2rem;
+        margin: 0rem;
     }
 
     .hero-image img {
@@ -221,10 +224,11 @@ footer a {
         max-width: 100%;
         max-height: 100%;
         border-radius: 0.5rem;
+        margin: 0rem;
     }
 
     main h1 {
-        margin: 0rem auto 0.75rem;
+        margin: 0rem auto;
         font-size: 2.25rem;
     }
 
@@ -235,17 +239,40 @@ footer a {
 
     .prep-section h2 {
         font-size: 1.5rem;
+        margin: 0rem;
     }
 
     .prep-section li {
         font-size: 1.125rem;
+        margin: 0rem;
+    }
+
+    .ingredient-section {
+        margin: 0rem;
     }
 
     .ingredient-section li{
         font-size: 1.125rem;
+        margin: 0rem;
     }
 
     .instruction-section li {
         font-size: 1.125rem;
+    }
+
+    .instruction-section {
+        margin: 0rem;
+    }
+
+    .nutrition-section {
+        margin: 0rem;
+    }
+
+    .nutrition-section p {
+        margin: 0rem;
+    }
+
+    hr {
+        margin: 0rem;
     }
 }
