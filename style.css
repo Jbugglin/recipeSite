@@ -235,6 +235,7 @@ footer a {
     main p {
         font-size: 1.125rem;
         width: 95%;
+        font-weight: 400;
     }
 
     .prep-section h2 {
@@ -245,6 +246,7 @@ footer a {
     .prep-section li {
         font-size: 1.125rem;
         margin: 0rem;
+        font-weight: 400;
     }
 
     .ingredient-section {
@@ -253,19 +255,23 @@ footer a {
 
     .ingredient-section li{
         font-size: 1.125rem;
+        font-weight: 400;
         margin: 0rem;
     }
 
     .instruction-section li {
         font-size: 1.125rem;
+        font-weight: 400;
     }
 
     .instruction-section {
         margin: 0rem;
+        font-weight: 400;
     }
 
     .nutrition-section {
         margin: 0rem;
+        font-weight: 400;
     }
 
     .nutrition-section p {
