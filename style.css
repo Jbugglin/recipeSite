@@ -210,7 +210,7 @@ footer a {
         width: 750px;
         border-radius: 1rem;
         padding: 2.5rem;
-        height: 90%;
+        height: fit-content;
         margin: 0rem;
     }
 
