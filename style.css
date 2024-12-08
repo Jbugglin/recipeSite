@@ -90,7 +90,6 @@ li {
     padding: 0rem 1.5rem;
     margin: 1rem 1.5rem;
     font-size: 0.80rem;
-    border: 1px solid red;
 }
 
 .ingredient-section {
@@ -127,10 +126,9 @@ li {
 
 .instruction-section li{
     margin: 0.5rem auto;
-    padding: 0rem 1.25rem;
+    padding: 0rem 1rem;
     line-height: 1.5;
-    font-size: 0.93rem;
-    letter-spacing: 0.25px;
+    font-size: 0.86rem;
 }
 
 .instruction-section li::marker{
@@ -188,7 +186,7 @@ footer a {
 
 
 /* Desktop View */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px) {
     body {
         background-color: var(--stone100);
     }
