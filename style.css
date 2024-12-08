@@ -28,13 +28,16 @@ body {
 header img {
     width: 100%;
     max-width: 375px;
-    height: auto;
+    height: fit-content;
     display: block;
 }
 
+.heroImage {
+    display: none;
+}
+
 main {
-    width: 100%;
-    max-width: 375px;
+    width: 375px;
     height: fit-content;
     padding: 2rem;
     background-color: var(--white);
@@ -92,6 +95,10 @@ li {
     font-size: 0.80rem;
 }
 
+.prep-section li::marker{
+    color: var(--rose800);
+}
+
 .ingredient-section {
     margin: 1.5rem auto;
 }
@@ -113,6 +120,10 @@ li {
     margin: 0.625rem 0rem;
     padding: 0rem 1rem;
     font-size: 0.9rem;
+}
+
+.ingredient-section li::marker {
+    color: var(--rose800);
 }
 
 .instruction-section {
@@ -189,5 +200,54 @@ footer a {
 @media screen and (min-width: 376px) {
     body {
         background-color: var(--stone100);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .header-image {
+        display: none;
+    }
+
+    main {
+        width: 850px;
+        border-radius: 1rem;
+        padding: 3rem;
+    }
+
+    .hero-image img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    main h1 {
+        margin: 2.5rem auto 0.75rem;
+        font-size: 2.25rem;
+    }
+
+    main p {
+        font-size: 1.125rem;
+        width: 95%;
+    }
+
+    .prep-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .prep-section li {
+        font-size: 1.125rem;
+    }
+
+    .ingredient-section li{
+        font-size: 1.125rem;
+    }
+
+    .instruction-section li {
+        font-size: 1.125rem;
+    }
+
 }
