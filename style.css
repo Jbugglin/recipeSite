@@ -89,7 +89,8 @@ li {
 .prep-section li {
     padding: 0rem 1.5rem;
     margin: 1rem 1.5rem;
-    font-size: 0.85rem;
+    font-size: 0.80rem;
+    border: 1px solid red;
 }
 
 .ingredient-section {
@@ -187,3 +188,8 @@ footer a {
 
 
 /* Desktop View */
+@media screen and (min-width: 375px) {
+    body {
+        background-color: var(--stone100);
+    }
+}
